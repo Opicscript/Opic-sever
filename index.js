@@ -187,7 +187,7 @@ app.get('/getJson',async (req,res) => {
 
 
 app.get("/", (req, res) => {
-  console.log("hello");
+  
   //express 앱(app)을 넣고, root directory에 오면,
   res.send("Hello World!"); //"Hello World!" 를 출력되게 해준다.
 });
